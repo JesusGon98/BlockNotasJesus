@@ -1,0 +1,17 @@
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+*.sqlite3
+
+.git
+.python-version
+.DS_Store
+.env
+.env.local
