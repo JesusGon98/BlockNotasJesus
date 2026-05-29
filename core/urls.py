@@ -1,6 +1,7 @@
 from django.http import JsonResponse
 from django.urls import include, path
 from rest_framework import routers
+import django_prometheus.urls
 
 from tasks.views import (
     UserViewSet,
@@ -29,4 +30,5 @@ urlpatterns = [
             namespace='rest_framework'
         )
     ),
+    path('', include(django_prometheus.urls)),
 ]

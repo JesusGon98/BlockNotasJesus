@@ -9,4 +9,6 @@ dependencies = [
     "django-cors-headers>=4.9.0",
     "djangorestframework>=3.17.1",
     "psycopg[binary]",
+    "django-prometheus>=2.4.0",
+    "python-logging-loki>=0.3.1",
 ]
